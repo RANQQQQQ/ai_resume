@@ -3,6 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="May（南瓜头）— 产品经理实习生，用户洞察、数据分析与 AI 产品实践。" />
+    <meta name="theme-color" content="#f8f9f7" />
+    <title>May / 南瓜头 — Product Management Intern</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#deck">跳至主要内容</a>
+    <header class="site-header">
+      <button class="brand" type="button" data-go="0" aria-label="Go to overview"><span>M</span><b>May <i>/ 南瓜头</i></b></button>
+      <nav class="chapter-nav" aria-label="Resume chapters">
+        <button type="button" data-go="0" class="active"><span class="zh">概览</span><span class="en">Overview</span></button>
+        <button type="button" data-go="1"><span class="zh">经历</span><span class="en">Experience</span></button>
+        <button type="button" data-go="6"><span class="zh">项目</span><span class="en">Projects</span></button>
+        <button type="button" data-go="8"><span class="zh">能力</span><span class="en">Highlights</span></button>
+        <button type="button" data-go="9"><span class="zh">联系</span><span class="en">Contact</span></button>
+      </nav>
+      <button class="lang-toggle" type="button" aria-label="Switch to English"><span class="active">中</span><span>EN</span></button>
+    </header>
+
+    <main class="deck" id="deck" aria-live="polite">
+      <div class="track">
+        <section class="slide slide--hero active" id="overview" data-chapter="0" aria-label="Overview">
+          <div class="slide-shell hero-grid">
+            <aside class="portrait-panel">
+              <div class="portrait"><span>M</span><small><span class="zh">个人照片待补充</span><span class="en">Portrait to be added</span></small></div>
+              <div class="availability"><i></i><span><span class="zh">开放产品实习机会</span><span class="en">Open to PM internships</span></span><b>2026</b></div>
+            </aside>
+            <div class="hero-copy">
+              <p class="eyebrow">PRODUCT MANAGEMENT INTERN</p>
+              <h1>May <span>/ 南瓜头</span></h1>
+              <p class="hero-tagline" id="hero-tagline"></p>
+              <p class="hero-profile" id="hero-profile"></p>
+              <div class="hero-meta">
+                <div><small>EDUCATION / 教育</small><div id="education-list"></div></div>
+                <div><small>LANGUAGE / 语言</small><strong>CET-6</strong><small>HONOURS / 荣誉</small><div id="hero-honours"></div></div>
+              </div>
+              <div class="hero-tags"><span>Product Strategy</span><span>User Insight</span><span>Data Analysis</span><span>AI Product</span></div>
+            </div>
+          </div>
+          <span class="page-watermark">00</span>
+        </section>
+
+        <section class="slide" id="current-experience" data-chapter="1" aria-label="Current experience">
+          <div class="slide-shell">
+            <header class="slide-heading"><div><span>01 / EXPERIENCE</span><h2><span class="zh">离产品最近的两段实践</span><span class="en">Two roles closest to product</span></h2></div><p><span class="zh">资本市场的严谨性，叠加互联网商业化的用户与增长视角。</span><span class="en">Capital-market rigor, paired with a user and growth lens from internet commercialization.</span></p></header>
+            <div class="two-card-grid" id="current-cards"></div>
+          </div>
+          <span class="page-watermark">01</span>
+        </section>
+
+        <section class="slide slide--tint" id="consulting" data-chapter="1" aria-label="Consulting experience">
+          <div class="slide-shell">
+            <header class="slide-heading"><div><span>02 / CONSULTING</span><h2 id="consulting-title"></h2></div><p id="consulting-role"></p></header>
+            <div class="consulting-layout"><div class="metric-row" id="consulting-metrics"></div><article class="story-card"><div id="consulting-bullets"></div></article></div>
+          </div>
+          <span class="page-watermark">02</span>
+        </section>
+
+        <section class="slide" id="audit" data-chapter="1" aria-label="Audit experience">
+          <div class="slide-shell">
+            <header class="slide-heading"><div><span>03 / AUDIT</span><h2><span class="zh">严谨性来自完整的底层训练</span><span class="en">Rigor built from foundational work</span></h2></div><p><span class="zh">把复杂数据、审计证据与业务波动整理成可验证的结论。</span><span class="en">Turning complex data, audit evidence and business movements into verifiable conclusions.</span></p></header>
+            <div class="audit-grid" id="audit-cards"></div>
+          </div>
+          <span class="page-watermark">03</span>
+        </section>
+
+        <section class="slide slide--dark" id="competitions" data-chapter="1" aria-label="Competitions and projects">
+          <div class="slide-shell">
+            <header class="slide-heading light"><div><span>04 / COMPETITIONS</span><h2><span class="zh">用案例验证思考</span><span class="en">Testing ideas through cases</span></h2></div><p><span class="zh">商业分析、AI 研究与经营决策的多场景实践。</span><span class="en">Practice across business analysis, AI research and operating decisions.</span></p></header>
+            <div class="competition-grid" id="competition-cards"></div>
+          </div>
+          <span class="page-watermark">04</span>
+        </section>
+
+        <section class="slide" id="leadership" data-chapter="1" aria-label="Student leadership">
+          <div class="slide-shell">
+            <header class="slide-heading"><div><span>05 / LEADERSHIP</span><h2><span class="zh">在组织里推动事情发生</span><span class="en">Making things happen in organizations</span></h2></div><p><span class="zh">从社群运营到绩效机制，把协作变成看得见的交付。</span><span class="en">From community operations to performance systems, turning collaboration into visible delivery.</span></p></header>
+            <div class="leadership-grid" id="leadership-cards"></div>
+          </div>
+          <span class="page-watermark">05</span>
+        </section>
+
+        <section class="slide slide--project" id="library-project" data-chapter="6" aria-label="Library smart assistant project">
+          <div class="slide-shell project-layout">
+            <div class="project-copy" id="library-copy"></div>
+            <div class="product-mockup">
+              <div class="mock-browser"><div class="mock-bar"><i></i><i></i><i></i><small>fdlibrarychat.coze.site</small></div><div class="mock-body"><aside><b>FU</b><i></i><i></i><i></i></aside><div class="mock-chat"><small>FUDAN LIBRARY</small><h3><span class="zh">今天想了解什么？</span><span class="en">What can I help you find?</span></h3><div><span><span class="zh">查找馆藏</span><span class="en">Find a book</span></span><span><span class="zh">空间预约</span><span class="en">Book a space</span></span></div><p><span class="zh">向智慧助手提问…</span><span class="en">Ask the assistant…</span><b>↑</b></p></div></div></div>
+            </div>
+          </div>
+          <span class="page-watermark">06</span>
+        </section>
+
+        <section class="slide slide--blue" id="career-project" data-chapter="6" aria-label="Career strategy project">
+          <div class="slide-shell project-layout career-layout">
+            <div class="project-copy" id="career-copy"></div>
+            <ol class="product-flow" id="career-flow"></ol>
+          </div>
+          <span class="page-watermark">07</span>
+        </section>
+
+        <section class="slide" id="highlights" data-chapter="8" aria-label="Skills and highlights">
+          <div class="slide-shell">
+            <header class="slide-heading"><div><span>08 / HIGHLIGHTS</span><h2><span class="zh">从发现问题到推动结果</span><span class="en">From discovery to outcomes</span></h2></div><p><span class="zh">能力不是工具列表，而是一条完整的产品工作路径。</span><span class="en">Capabilities are not a tool list, but an end-to-end product workflow.</span></p></header>
+            <div class="highlights-layout"><div class="capability-grid" id="capability-cards"></div><aside class="honour-panel"><small>HONOURS / 荣誉</small><div id="honours-list"></div><small>TOOLBOX / 工具</small><div class="tool-list" id="tool-list"></div></aside></div>
+          </div>
+          <span class="page-watermark">08</span>
+        </section>
+
+        <section class="slide slide--contact" id="contact" data-chapter="9" aria-label="Contact">
+          <div class="slide-shell contact-layout">
+            <div><p class="eyebrow">09 / CONTACT</p><h2><span class="zh">一起做些<br />真正有用的产品。</span><span class="en">Let’s build something<br />genuinely useful.</span></h2><p><span class="zh">期待与产品、AI 与互联网行业的机会相遇。</span><span class="en">Open to product, AI and internet opportunities.</span></p></div>
+            <div class="contact-list" id="contact-list"></div>
+          </div>
+          <p class="copy-toast" role="status" aria-live="polite"></p>
+          <span class="page-watermark">09</span>
+        </section>
+      </div>
+    </main>
+
+    <div class="deck-controls" aria-label="Page navigation">
+      <button class="arrow prev" type="button" aria-label="Previous page">←</button>
+      <div class="progress"><i></i></div>
+      <span class="counter"><b>01</b> / 10</span>
+      <button class="arrow next" type="button" aria-label="Next page">→</button>
+    </div>
+    <div class="swipe-hint"><span class="zh">左右切换</span><span class="en">Swipe sideways</span> <i>→</i></div>
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="May（南瓜头）— 产品经理实习生，关注用户洞察、数据分析与 AI 产品实践。" />
     <meta name="theme-color" content="#fcfcfb" />
     <title>May / 南瓜头 — Product Management Intern</title>
